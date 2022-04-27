@@ -2,10 +2,7 @@
 # любое другое число. Условные
 # операторы и операторы цикла не использовать.
 
-import random
-a = int(input("Print a -"))
-b = int(input("Print b - "))
-if a % b == 0 or b % a == 0:
-    print(1)
-else:
-    print(random.randint(-100, 100))
+a = int(input('a = '))
+b = int(input('b = '))
+
+print((a%b) * (b%a) + 1)
